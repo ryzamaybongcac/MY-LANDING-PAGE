@@ -1,0 +1,12 @@
+/Landing_Page/
+│── index.html  (Login Page)
+│── signup.html  (Sign Up Page)
+│── home.html  (Landing Page/Home)
+│── about.html  (about)
+│── pages.html  (Pages)
+│── blog.html  (blog)
+│── contact.html  (contact)
+│── log out.html  (Log out Page)
+│── services.html  (services)
+│── style.css  (CSS File)
+│── script.js  (JavaScript File)
