@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .content {
+            display: none; /* Hide all sections by default */
+            margin-top: 20px;
+        }
+        .active {
+            display: block; /* Show active section */
+        }
+    </style>
+</head>
+<body>
+    
+    </body>
+    </html>
+    
+
+    </div>
+</body>
+</html>
+    
+    
+
+    <h1>WELCOME TO MY LANDING PAGE</h1>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a onclick="showSection('home')">HOME</a>
+        <a onclick="showSection('about')">ABOUT</a>
+        <a onclick="showSection('services')">SERVICES</a>
+        <a onclick="showSection('pages')">PAGES</a>
+        <a onclick="showSection('blog')">BLOG</a>
+        <a onclick="showSection('contact')">CONTACT</a>
+        <a href="login.html">LOGOUT</a>
+
+    </nav>
+
+    <!-- Content Sections -->
+    <div id="home" class="content active">
+        <h2>Home</h2>
+        <p>Welcome to my website! This is the home section</p>
+        <p>My Name is Ryza May G. Bongcac</p>
+    </div>
+
+    <div id="about" class="content">
+        <h2>About</h2>
+        <p>So, Hello everyone! I am a BSIT-2C student at USTP Oroquieta.</p>
+        <p>"Inspiring  and guiding individuals to achieve their goals through technology and creativity"</p>
+    </div>
+
+    <div id="services" class="content">
+        <h2>Services</h2>
+        <p>These are the services I offer as an IT:</p>
+        <p>- Web Development</p>
+        <p>- App Development</p>
+    </div>
+
+    <div id="pages" class="content">
+        <h2>Pages</h2>
+        <p>This section contains additional pages.</p>
+        <section>
+        <h2>1. Web Development</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">HTML Basics</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">CSS Fundamentals</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript Guide</a></li>
+                <section>
+                    <h2>2. App Development</h2>
+                    <ul>
+                        <li><a href="https://developer.android.com/courses" target="_blank">Android Development (Java/Kotlin)</a></li>
+                        <li><a href="https://developer.apple.com/ios/" target="_blank">iOS Development (Swift)</a></li>
+                    </ul>
+                </section>
+                <section>
+    </div>
+
+    <div id="blog" class="content">
+        <h2>Blog</h2>
+        <p>Read my latest blog posts here.</p>
+        <section>
+            <h2>Web Development</h2>
+            
+            <article>
+                <h3><a href="#">Getting Started with HTML, CSS, and JavaScript</a></h3>
+                <p>Learn the basics of web development by understanding the core technologies: HTML for structure, CSS for styling, and JavaScript for interactivity.</p>
+                <a href="#">Read More...</a>
+            </article>
+    
+        <section>
+            <h2>App Development</h2>
+    
+            <article>
+                <h3><a href="#">Building Your First Mobile App: A Beginner’s Guide</a></h3>
+                <p>Learn the steps to develop a simple mobile app using Android Studio for Android or Xcode for iOS.</p>
+                <a href="#">Read More...</a>
+            </article>
+    
+            
+            </article>
+        </section>
+    </div>
+
+    <div id="contact" class="content">
+        <h2>Contact</h2>
+        <p>Get in touch with me via email or social media.</p>
+        <p>If you have any questions, feel free to reach out through email or social media.</p>
+
+    <h2>Send with My Email</h2>
+    <p>Email: <a href="zayahgumanoy@gmail.com">zayahgumanoy@gmail.com</a></p>
+
+    <h2>Connect with My Social Media</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/ryzamay.bongcac
+            " target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/rhyzzaaaaa?igsh=MWp3NjVrdHNpZHU4bQ==
+            " target="_blank">Instagram</a></li>
+    </ul>
+
+</body>
+</html>
+    <div class="form-container">
+        <div id="LOG OUT" class="content">
+    <h2>LOG OUT</h2>
+    <p>click here</p>
+    <section>
+    <ul> 
+        <li><a href="<a href="logout.php" target="_blank">LOG OUT</a></li>
+    </ul>
+</section>
+<section>
+
+
+
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.content');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
